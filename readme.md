@@ -317,6 +317,7 @@ Hexadecimal: 2A
 - O programa suporta números de até 32 bits (0 a 4294967295)
 - A conversão é feita dividindo o número por 16 e usando o resto como índice na tabela `hex_chars`
 - Os dígitos hexadecimais são impressos em ordem inversa (do mais significativo para o menos significativo)
+- O código foi ajustado para evitar `Segmentation Fault`, limitando o acesso à memória ao utilizar índices positivos e controle de tamanho.
 
 ## Licença
 Este código é de domínio público e foi construído para fins acadêmicos. Sinta-se livre para usá-lo e modificá-lo.

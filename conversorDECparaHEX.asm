@@ -111,7 +111,7 @@ dec esi                   ; começa do último índice
     cmp esi, -1
     jg .imprime_loop
 
-; === quebra de linha ===
+; === Etapa 7: quebra de linha ===
 mov byte [resultado], 10        ; 10 = '\n' (ASCII para nova linha)
 mov eax, 4                      ; sys_write
 mov ebx, 1                      ; stdout

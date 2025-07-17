@@ -280,7 +280,7 @@ dec esi                 ; Começa do último dígito
 
 ---
 
-### **Quebra de linha**
+### **Etapa 7: Quebra de linha**
 ```nasm
 mov byte [resultado], 10 ; Armazena '\n' no buffer
 mov eax, 4               ; sys_write

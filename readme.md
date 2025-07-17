@@ -318,11 +318,6 @@ Hexadecimal: 2A
 - A conversão é feita dividindo o número por 16 e usando o resto como índice na tabela `hex_chars`
 - Os dígitos hexadecimais são impressos em ordem inversa (do mais significativo para o menos significativo)
 
-## Melhorias Possíveis
-- Validação da entrada (aceitar apenas dígitos decimais)
-- Suporte a números negativos
-- Versão 64-bit para números maiores
-
 ## Licença
 Este código é de domínio público. Sinta-se livre para usá-lo e modificá-lo.
 ```
@@ -336,6 +331,5 @@ O arquivo está formatado em Markdown e inclui:
 - Instruções de compilação
 - Explicação do funcionamento
 - Exemplo de uso
-- Seção de melhorias possíveis
 
 Você pode adaptar conforme necessário para incluir mais detalhes ou informações específicas do seu ambiente.

@@ -319,17 +319,5 @@ Hexadecimal: 2A
 - Os dígitos hexadecimais são impressos em ordem inversa (do mais significativo para o menos significativo)
 
 ## Licença
-Este código é de domínio público. Sinta-se livre para usá-lo e modificá-lo.
+Este código é de domínio público e foi construído para fins acadêmicos. Sinta-se livre para usá-lo e modificá-lo.
 ```
-
-### Como usar este README.md:
-1. Salve o conteúdo acima em um arquivo chamado `README.md` no mesmo diretório do seu código Assembly.
-2. Use-o como documentação do projeto ou para compartilhar com outros desenvolvedores.
-
-O arquivo está formatado em Markdown e inclui:
-- Título e descrição do projeto
-- Instruções de compilação
-- Explicação do funcionamento
-- Exemplo de uso
-
-Você pode adaptar conforme necessário para incluir mais detalhes ou informações específicas do seu ambiente.

@@ -1,7 +1,7 @@
 Aqui está o arquivo `README.md` para o seu projeto, explicando o funcionamento do código Assembly:
 
 ```markdown
-# Conversor Decimal para Hexadecimal em Assembly (NASM)
+# ConversorDECparaHEX Decimal para Hexadecimal em Assembly (NASM)
 
 Este programa em Assembly (NASM) para Linux lê um número decimal digitado pelo usuário, converte-o para hexadecimal e exibe o resultado na tela.
 
@@ -12,21 +12,21 @@ Este programa em Assembly (NASM) para Linux lê um número decimal digitado pelo
 
 ## Como compilar e executar
 
-1. **Salve o código** em um arquivo (ex: `conversor.asm`)
+1. **Salve o código** em um arquivo (ex: `conversorDECparaHEX.asm`)
 
 2. **Compile** com o NASM (gerando um objeto ELF64):
    ```bash
-   nasm -f elf64 conversor.asm -o conversor.o
+   nasm -f elf64 conversorDECparaHEX.asm -o conversorDECparaHEX.o
    ```
 
 3. **Linkar** para gerar o executável:
    ```bash
-   ld -m elf_x86_64 conversor.o -o conversor
+   ld -m elf_x86_64 conversorDECparaHEX.o -o conversorDECparaHEX
    ```
 
 4. **Execute** o programa:
    ```bash
-   ./conversor
+   ./conversorDECparaHEX
    ```
 
 ## Funcionamento do Programa
@@ -62,7 +62,7 @@ Este programa em Assembly (NASM) para Linux lê um número decimal digitado pelo
 
 ## Exemplo de Uso
 ```bash
-$ ./conversor
+$ ./conversorDECparaHEX
 Digite um numero decimal: 42
 Hexadecimal: 2A
 ```
